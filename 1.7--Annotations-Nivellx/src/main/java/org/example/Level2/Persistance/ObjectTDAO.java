@@ -18,7 +18,7 @@ public class ObjectTDAO {
                 writer.write(jsonString);
                 System.out.println("Object serialized to JSON successfully.");
             }catch (IOException e){
-                throw new IOException("Error writing to file.");
+                e.getMessage();
             }
         }else {
            System.err.println("Class is not serializable.");
