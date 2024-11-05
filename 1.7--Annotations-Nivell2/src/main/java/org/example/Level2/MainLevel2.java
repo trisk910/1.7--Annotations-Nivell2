@@ -12,7 +12,7 @@ public class MainLevel2 {
         try {
             ObjectTDAO.writeJson(obj);
         } catch (IOException e) {
-            e.getMessage();
+            System.getLogger(e.getMessage());
         }
 
     }

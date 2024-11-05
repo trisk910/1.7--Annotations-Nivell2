@@ -13,6 +13,5 @@ public class OnlineWorker extends Worker {
     @Deprecated
     public static void deprecatedOnlineMethod(){
         System.out.println("Deprecated method online worker");
-
     }
 }

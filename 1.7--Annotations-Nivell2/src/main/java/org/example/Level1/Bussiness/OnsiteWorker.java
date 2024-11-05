@@ -13,6 +13,5 @@ public class OnsiteWorker extends Worker{
     @Deprecated
     public static void deprecatedOnsiteMethod(){
         System.out.println("Deprecated method onsite worker");
-
     }
 }
